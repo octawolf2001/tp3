@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float nota;
+    int aprobados = 0;
+	int reprobados = 0;
+    
+    cout << "Ingrese 10 notas:" << endl;
+    for (int f = 1; f <= 10; i++) {
+        cin >> nota;
+        
+        if (nota >= 7) 
+		{
+          aprobados = aprobados+1 ;
+        }
+		 else 
+		{
+            reprobados=reprobados+1;
+        }
+    }
+    
+    cout << "Los aprobados son: " << aprobados << endl;
+    cout << "los reprobados son: " << reprobados << endl;
+    
+    return 0;
+}

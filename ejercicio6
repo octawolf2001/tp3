@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num=0;
+    int suma=0;
+    cout<< "sumatoria de numeros pares entre el 1 y 100"<<endl;
+    while (num < 100){
+    	cout<<num+2<<endl;
+    	num = num+2;
+    	suma=suma + num;
+	}
+	cout<<"la suma es de "<<suma<<endl;
+return 0;}

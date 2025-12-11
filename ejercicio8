@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float x;
+    float can=1;
+    float re=1;
+    cout<< "ingresa un numero"<<endl;
+    cin>>x;
+    while (can <= 5){
+    	cout<<re<<"x"<<x<<"="<<re*x<<endl;
+    	re=re*x;
+    	can=can+1;
+    	
+	}
+	cout<<x<<" elevado a la quinta es igual a "<<re<<endl;
+return 0;}

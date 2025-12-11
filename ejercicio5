@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    int can;
+    int nc=1;
+    int par = 0;
+    int imp=0;
+    cout<< "ingrese la cantidad de numeros que quiera ingresar(numeros enteros)"<<endl;
+    cin>> can;
+    while (nc <= can){
+    	cout<<"ingrese el numero "<<nc<<":"<<endl;
+    	cin>>num;
+    	nc=nc+1;
+    	if(num%2==0){
+    		par=par+1;
+		}
+		else{
+			imp=imp+1;
+		}
+	}
+	cout<<"Hay "<<par<<" numeros pares y hay "<<imp<<" numeros impares"<<endl;
+return 0;
+}

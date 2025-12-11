@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float num=11;
+    int can= 0;
+    while (can < 25){
+    	cout<<num<<endl;
+    	num = num+11;
+    	can=can+1;
+	}
+return 0;
+}

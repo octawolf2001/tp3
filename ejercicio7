@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    int can=0;
+    int par = 0;
+    int imp=0;
+	int suma=0;
+
+    while (can < 300){
+    	num=num+1;
+    	suma=suma+num;
+    	if(num%2==0){
+    		par=par+1;
+		}
+		else{
+			imp=imp+1;
+		}
+		can=can+1;
+	}
+	cout<<"Hay "<<par<<" numeros pares y hay "<<imp<<" numeros impares"<<endl;
+	cout<<"y la sumatoria es de:"<<suma;
+return 0;
+}
